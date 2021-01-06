@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "uWebSockets": "uNetworking/uWebSockets",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v18.8.0"
+  }
+}
