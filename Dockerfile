@@ -16,11 +16,11 @@ RUN apt-get -y update \
 # Install yarn
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - \
     && echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list \
-    && apt-get update && apt-get -y install yarn \
-    && cd /home/websocket
+    && apt-get update && apt-get -y install yarn
 
 # Install node modules
-RUN yarn install
+RUN cd /home/websocket \
+    && yarn install
 
 EXPOSE 8080
 
