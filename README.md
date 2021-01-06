@@ -33,7 +33,7 @@ included Dockerfile
 #### Install & Run
 ```
 yarn install
-node main.js
+node nodejs-uws_websocket-benchmark-server.js
 ```
 
 ## Links

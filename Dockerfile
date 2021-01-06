@@ -25,4 +25,4 @@ RUN yarn install
 EXPOSE 8080
 
 WORKDIR /home/websocket
-CMD ["node", "main.js"]
+CMD ["node", "nodejs-uws_websocket-benchmark-server.js"]
