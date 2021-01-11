@@ -59,7 +59,6 @@ class Server {
             /**
              * Event triggered whenever a client connects to the websocket
              * @param ws {WebSocket} The newly connected client
-             * @returns void
              */
             open: (ws) => {
 
